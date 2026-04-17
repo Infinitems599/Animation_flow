@@ -5,7 +5,42 @@
     <link>https://Infinitems599.github.io/Animation_flow/</link>
     <description>本地 RSSHub + DeepSeek 生成的每日动画信息流推送</description>
     <atom:link href="https://Infinitems599.github.io/Animation_flow/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 16 Apr 2026 02:57:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 03:59:58 +0000</lastBuildDate>
+    
+    <item>
+      <title>2026-04-17</title>
+      <link>https://Infinitems599.github.io/Animation_flow/2026-04-17/</link>
+      <guid>https://Infinitems599.github.io/Animation_flow/2026-04-17/</guid>
+      <description></description>
+      <content:encoded><![CDATA[<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2026-04-17</title>
+    <style>
+      body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 960px; margin: 40px auto; padding: 0 16px; line-height: 1.7; color: #222; }
+      h1, h2 { line-height: 1.2; }
+      article { margin: 28px 0 40px; padding-bottom: 24px; border-bottom: 1px solid #e5e5e5; }
+      .meta { color: #666; font-size: 14px; }
+      .summary { background: #f7f7f7; padding: 16px; border-radius: 10px; margin: 16px 0; }
+      .media { margin: 16px 0; display: grid; gap: 12px; }
+      img, video { max-width: 100%; height: auto; }
+      a { color: #0a58ca; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <p><a href="../index.html">Back</a></p>
+    <h1>2026-04-17</h1>
+    <p class="meta">Daily push archive generated locally.</p>
+    
+      <p>No new entries in this run.</p>
+    
+  </body>
+</html>]]></content:encoded>
+      <pubDate>Fri, 17 Apr 2026 03:59:58 +0000</pubDate>
+    </item>
     
     <item>
       <title>2026-04-16</title>
