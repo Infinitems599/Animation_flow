@@ -10,24 +10,33 @@ URLS=[BASE+'/frontpage/bjtu/html/index.html',BASE+'/frontpage/bjtu/html/recruitm
 OUTPUT=Path('docs/bjtu-electrical.xml')
 STATE=Path('docs/bjtu-electrical-state.json')
 PROFILES=json.loads(Path('data/bjtu-company-profiles.json').read_text())
-DIRECT=('国家电网','国网','南方电网','南网','电科院','电力科学研究院','电气装备','金风科技','华为数字能源','南瑞','许继','中国西电','特变电工','中广核','中国广核','电力设计院')
+DIRECT=('国家电网','南方电网','南网','电科院','电力科学研究院','电气装备','金风科技','华为数字能源','南瑞','许继','中国西电','特变电工','中广核','中国广核','电力设计院')
 TECH=('电气','电力','能源','光伏','储能','风电','输变电','配电','继电保护','牵引供电','电机','电力电子','变流','逆变','智能电网','电站')
 def profile(s):
  for p in PROFILES:
-  if any(a.lower() in s.lower() for a in p['aliases']): return p
+  if any(a.lower() in s.lower() for a in p['aliases']):return p
+ if re.search(r'(?<!中)国网',s) or '国家电网' in s:
+  return dict(name='国家电网系统相关单位',background='公告名称显示为国家电网系统单位或专场活动；准确的招聘法人主体、岗位和用工方式，应以学校公告为准。',focus='电网运行、输配电、建设、规划、科研等（需逐岗位核实）',source='https://www.sgcc.com.cn/')
+ if '南方电网' in s:
+  return dict(name='南方电网系统相关单位',background='公告名称显示为南方电网系统单位或专场活动；具体企业、岗位和任职资格须以学校公告为准。',focus='电网运行、配电、新能源消纳、储能等（需逐岗位核实）',source='https://www.csg.cn/')
 def accept(s):
- if len(s)<6 or len(s)>160:return False
- return profile(s) or any(t in s for t in DIRECT+TECH)
+ if len(s)<6 or len(s)>160 or '中国网安' in s:return False
+ return bool(profile(s)) or any(t in s for t in DIRECT+TECH) or bool(re.search(r'(?<!中)国网',s))
+def valid_url(link):
+ # Do not publish generic navigation/list links as if they were individual jobs.
+ return bool(re.match(r'^https://job\.bjtu\.edu\.cn/f/(?:recruitmentFair|recruitmentinfo|bilateralchosefair)/show\?',str(link),re.I))
 def date(s):
  try:return format_datetime(datetime.fromisoformat(s.replace('Z','+00:00')).astimezone(timezone.utc))
  except:return format_datetime(datetime.now(timezone.utc))
 def record(out,title,link,origin):
  title=' '.join(str(title).split())
- if not accept(title):return
- if not link or not str(link).startswith(('http://','https://')):link=origin
- link=urljoin(BASE,link)
- uid=hashlib.sha256((title+'|'+link).encode()).hexdigest()[:24]
- out[uid]={'title':title,'link':link,'id':uid,'origin':origin}
+ link=urljoin(BASE,str(link or ''))
+ if not accept(title) or not valid_url(link):return
+ uid=hashlib.sha256(link.encode()).hexdigest()[:24]
+ def quality(t):
+  return (5 if t.startswith('【') else 0)-(10 if ' | ' in t or '人以上' in t else 0)-(4 if '...' in t else 0)
+ if uid not in out or quality(title)>quality(out[uid]['title']):
+  out[uid]={'title':title,'link':link,'id':uid,'origin':origin}
 def traverse(x,out,origin,d=0):
  if d>12:return
  if isinstance(x,list):
@@ -50,7 +59,7 @@ async def scrape():
    try:
     await page.goto(url,wait_until='domcontentloaded',timeout=35000)
     await page.wait_for_timeout(4500)
-    links=await page.eval_on_selector_all('a[href]',"""els=>els.map(e=>({text:e.innerText||e.title,href:e.href}))""")
+    links=await page.eval_on_selector_all('a[href]',"""els=>els.map(e=>({text:((e.title||'').length>(e.innerText||'').trim().length?e.title:e.innerText)||e.title,href:e.href}))""")
     for a in links:record(out,a['text'],a['href'],url)
     for r in responses:
      try:
@@ -64,13 +73,17 @@ async def scrape():
  return out
 def main(items):
  old=json.loads(STATE.read_text()) if STATE.exists() else {'items':{}}
- saved=old.get('items',{})
+ old_by_link={v['link']:v for v in old.get('items',{}).values() if valid_url(v.get('link')) and accept(v.get('title',''))}
+ saved={}
  now=datetime.now(timezone.utc).isoformat()
+ for original in old_by_link.values():
+  uid=hashlib.sha256(original['link'].encode()).hexdigest()[:24]
+  original['id']=uid
+  saved[uid]=original
  for uid,item in items.items():
-  if uid in saved:item['first_seen']=saved[uid]['first_seen']
-  else:item['first_seen']=now
+  item['first_seen']=old_by_link.get(item['link'],{}).get('first_seen',now)
   saved[uid]=item
- if not saved:raise RuntimeError('No electrical items found; not publishing empty RSS')
+ if not items:raise RuntimeError('No valid new detail links found; refusing to publish stale or empty feed')
  saved=dict(sorted(saved.items(),key=lambda kv:kv[1]['first_seen'],reverse=True)[:250])
  STATE.write_text(json.dumps({'items':saved},ensure_ascii=False,indent=2)+'\n')
  feed='https://infinitems599.github.io/Animation_flow/bjtu-electrical.xml'
