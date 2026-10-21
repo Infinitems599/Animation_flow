@@ -1,0 +1,29 @@
+name: BJTU electrical career RSS
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [feature/bjtu-electrical-rss]
+  workflow_dispatch:
+  schedule:
+    - cron: '19 */6 * * *'
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install playwright
+      - run: python -m playwright install --with-deps chromium
+      - run: python scripts/bjtu_electrical_rss.py
+      - name: Commit only on changes
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/bjtu-electrical.xml docs/bjtu-electrical-state.json
+          git diff --cached --quiet || (git commit -m "Update BJTU electrical RSS" && git push)

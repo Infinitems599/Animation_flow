@@ -1,0 +1,150 @@
+[
+  {
+    "aliases": [
+      "中国电力科学研究院",
+      "中国电科院"
+    ],
+    "name": "中国电力科学研究院有限公司",
+    "priority": "A1",
+    "background": "国家电网直属科研单位，长期从事电力系统规划、运行安全与控制、超特高压和新能源等技术研究。属于研究技术路线，具体部门与岗位要求应单独核实。",
+    "focus": "电网规划与稳定、仿真分析、电力系统控制、高电压、科研开发",
+    "source": "https://www.cpss.org.cn/Home/Company?key=99ddd456-b11f-48ee-9780-acbaaffe0044"
+  },
+  {
+    "aliases": [
+      "国网冀北",
+      "冀北电力"
+    ],
+    "name": "国网冀北电力有限公司",
+    "priority": "A1",
+    "background": "国家电网全资省级电网公司，供电区域包括唐山、张家口、秦皇岛、承德、廊坊；承担区域供电、输电通道运维与新能源并网工作。",
+    "focus": "调度运行、输变电、配电、风光储输、新能源消纳",
+    "source": "https://www.cpem.org.cn/list40/114447.html"
+  },
+  {
+    "aliases": [
+      "中国电气装备集团",
+      "中国电气装备"
+    ],
+    "name": "中国电气装备集团有限公司",
+    "priority": "A1",
+    "background": "国务院国资委监管的中央企业，聚焦高端输配电装备、特高压技术及源网荷储一体化解决方案；与电网运营公司不是同一种业务。",
+    "focus": "变压器、开关设备、输变电装备、储能与电气设备研发",
+    "source": "https://www.cee-group.cn/gywm/jtjj.htm"
+  },
+  {
+    "aliases": [
+      "华为数字能源"
+    ],
+    "name": "华为数字能源技术有限公司",
+    "priority": "A2",
+    "background": "华为数字能源业务聚焦清洁发电、交通电动化和绿色ICT能源基础设施，技术基础是数字技术与电力电子的融合。",
+    "focus": "光伏逆变、构网型储能、PCS、BMS、EMS、充电设施",
+    "source": "https://digitalpower.huawei.com/cn/about"
+  },
+  {
+    "aliases": [
+      "金风科技"
+    ],
+    "name": "金风科技股份有限公司",
+    "priority": "A2",
+    "background": "深交所与港交所上市的风电企业，业务覆盖能源开发、能源装备、能源服务及能源应用。",
+    "focus": "风电机组研发、电气控制、风电并网、能量管理",
+    "source": "https://www.goldwind.com/cn/about/detail/"
+  },
+  {
+    "aliases": [
+      "中车株洲电力机车研究所",
+      "中车株洲所"
+    ],
+    "name": "中车株洲电力机车研究所有限公司",
+    "priority": "A2",
+    "background": "中国中车全资子公司，业务涵盖轨道交通牵引传动与控制、电力电子器件、新能源、工业传动等。",
+    "focus": "牵引变流、电力电子器件、控制系统、新能源装备",
+    "source": "https://crrczzs.zhiye.com/about"
+  },
+  {
+    "aliases": [
+      "北京智芯微电子",
+      "国家电网-北京智芯",
+      "国网智芯"
+    ],
+    "name": "北京智芯微电子科技有限公司",
+    "priority": "A2",
+    "background": "国家电网直属产业单位，以芯片传感、通信控制、用配电为主要业务方向；电气与微电子技术交叉较强。",
+    "focus": "智能电网芯片、用配电终端、传感与通信控制",
+    "source": "https://www.bjmtg.gov.cn/bjmtg/ysxx/202409/058998ead9c6407da5ed7ab6f411a1f4.shtml"
+  },
+  {
+    "aliases": [
+      "中国广核集团",
+      "中广核"
+    ],
+    "name": "中国广核集团有限公司",
+    "priority": "A1",
+    "background": "中央清洁能源企业，业务包括核能、核燃料、新能源及数字科技等；需要进一步区分核电运营、工程建设和新能源子公司。",
+    "focus": "电厂电气、电力系统、核电仪控、新能源电站",
+    "source": "https://www.cgnpc.com.cn/"
+  },
+  {
+    "aliases": [
+      "中车山东风电"
+    ],
+    "name": "中车山东风电有限公司",
+    "priority": "A2",
+    "background": "中国中车直接管理的企业，风电业务覆盖风机装备、风资源开发、EPC和风电场运营。",
+    "focus": "风机电气、控制、电站建设、设备运维",
+    "source": "https://www.crrcgc.cc/zcfd/2016-11/09/article_23211B26BFBA456785609F2F3B96F3D9.html"
+  },
+  {
+    "aliases": [
+      "中国铁建电气化局"
+    ],
+    "name": "中国铁建电气化局集团有限公司",
+    "priority": "A3",
+    "background": "中国铁建旗下工程企业，业务包括铁路电气化、牵引供电、电力通信信号、城市轨道交通及输变电工程。",
+    "focus": "轨道交通供电、牵引变电、电气化系统集成与施工",
+    "source": "https://www.cctat.cn/index/shows?catid=43&id=226"
+  },
+  {
+    "aliases": [
+      "南瑞继保"
+    ],
+    "name": "南京南瑞继保电气有限公司",
+    "priority": "A2",
+    "background": "以电力保护控制、智能电力装备和工业过程控制的技术研发与产业化为主，需与南瑞集团其他公司分别辨认。",
+    "focus": "继电保护、电力自动化、稳定控制、电力电子",
+    "source": "https://www.nrec.com/cn/index.php/about/intro"
+  },
+  {
+    "aliases": [
+      "南瑞集团",
+      "国网电力科学研究院"
+    ],
+    "name": "南瑞集团有限公司",
+    "priority": "A1",
+    "background": "国家电网直属科研产业单位，面向电力与工业控制的软硬件和系统解决方案，南京地区有重要研发产业布局。",
+    "focus": "电网自动化、电力系统保护控制、电力信息化",
+    "source": "https://yz.chsi.com.cn/sch/schoolInfo--schId-368154%2CcategoryId-468562.dhtml"
+  },
+  {
+    "aliases": [
+      "施耐德电气"
+    ],
+    "name": "施耐德电气",
+    "priority": "A2",
+    "background": "面向能源管理和工业自动化的跨国技术企业；具体校园招聘主体及业务团队须以岗位公告为准。",
+    "focus": "中低压配电、数字化能源管理、工业控制",
+    "source": "https://www.se.com/cn/zh/about-us/"
+  },
+  {
+    "aliases": [
+      "日立能源"
+    ],
+    "name": "日立能源",
+    "priority": "A2",
+    "background": "提供电网技术和电力装备解决方案的企业，需确认中国区具体法人及岗位。",
+    "focus": "高压设备、直流输电、电网自动化、变压器",
+    "source": "https://www.hitachienergy.com/cn/zh"
+  }
+]
