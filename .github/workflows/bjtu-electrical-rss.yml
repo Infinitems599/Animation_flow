@@ -1,5 +1,9 @@
 name: BJTU electrical career RSS
 on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [feature/bjtu-electrical-rss]
   workflow_dispatch:
   schedule:
     - cron: '19 */6 * * *'
@@ -17,6 +21,7 @@ jobs:
       - run: python -m playwright install --with-deps chromium
       - run: python scripts/bjtu_electrical_rss.py
       - name: Commit only on changes
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
