@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>电力网络论文晨报</title><link>https://infinitems599.github.io/Animation_flow/</link><description>精选电力网络、复杂网络、输电网络重建及电网建模相关论文，附中文摘要与推荐理由。</description><language>zh-CN</language><atom:link href="https://infinitems599.github.io/Animation_flow/power-network.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item>
+<title>[优先级：必读] Satellite-Only 3D Digitization of Hundred-Kilometer-Scale High-Voltage Transmission Lines</title>
+<link>https://doi.org/10.3390/rs18193398</link>
+<guid isPermaLink="true">https://doi.org/10.3390/rs18193398</guid>
+<pubDate>Thu, 29 Oct 2026 00:48:51 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Xiaosong Zhang；Wenjiang Feng；Mingyang Chen；Maolin Chen&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（Remote Sensing 18(19):3398，2026-10-03）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;提出仅依赖卫星影像的百公里级高压线路三维数字化框架：用阴影模式与轻量MobileNetV3-Small识别塔型，以分段加权随机森林反演塔高，再从参数化模型库装配铁塔、导线和绝缘子。论文在中国与沙特的5条500 kV线路、近800基塔和超过320 km走廊上验证。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;这是对四川220 kV及以上建模最直接的新方法之一，尤其适合山地长走廊和禁飞区的低成本宏观数字化。应把其结果作为候选几何与资产清单，而不是未经核验的运行接线或电气参数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;卫星影像阴影特征＋MobileNetV3-Small/MixUp塔型分类＋分段加权随机森林塔高反演＋参数化构件检索与三维装配。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;Google Earth影像因版权不能再分发，塔位和属性因关键基础设施安全不公开；作者承诺在GitHub发布重建的500 kV三维塔模型，其他数据可合理申请。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;长距离走廊资产盘点、禁飞区应急评估、塔型与高度候选补全、三维可视化底图。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入原图：虽为开放获取论文，但底层影像有版权限制，RSS仅保留论文和公开模型入口。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.3390/rs18193398&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
+<title>[优先级：高] A complex networks framework for cyber-physical power system critical node identification considering various communication structures and coupling relationships</title>
+<link>https://doi.org/10.1016/j.ijcip.2026.100853</link>
+<guid isPermaLink="true">https://doi.org/10.1016/j.ijcip.2026.100853</guid>
+<pubDate>Thu, 29 Oct 2026 00:48:51 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Sepehr Mardani；Ali Karimi；Mehran Memari&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（International Journal of Critical Infrastructure Protection 53:100853，2026-07）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;构建电力网—通信网双层复杂网络关键节点识别框架，将社团感知中心性、电气扩展中心性、不同通信拓扑以及一对一和部分依赖耦合共同纳入排名，并在IEEE 30和118母线系统上验证。结果显示最关键节点较稳定，但次关键节点会随通信结构和耦合方式显著变化。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;你的多层耦合与谱方法可以直接延伸到这类CPPS模型。对四川候选高压网，关键站点不应只按电气介数排序，还要检查其通信依赖和跨社团作用；本文适合作为静态预筛，不能替代动态连锁故障仿真。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;社团检测＋社团中心性＋含电气属性的扩展中心性＋BA/WS/ER等通信网络＋多种跨层耦合敏感性分析。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;使用IEEE 30/118母线标准算例和生成的通信拓扑；论文页面未显示独立公开代码或专属数据仓库。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;关键变电站复核优先级、通信网络设计、跨层脆弱性分析、连锁故障仿真工况压缩。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入图片：未确认出版商图件具有稳定直链及独立复用条件。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.ijcip.2026.100853&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
+<title>[优先级：高] Topology Change Estimation in Power Distribution Networks: A Machine Learning Approach</title>
+<link>https://doi.org/10.1109/TSG.2026.3658595</link>
+<guid isPermaLink="true">https://doi.org/10.1109/TSG.2026.3658595</guid>
+<pubDate>Thu, 29 Oct 2026 00:48:51 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Arnab Dey；Soham Chakraborty；Murti V. Salapaka&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（IEEE Transactions on Smart Grid 17(4):3445–3462；在线2026-01-28，卷期2026-07）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;仅依赖相量量测，在没有网络先验的情况下检测线路增删、确定变化时刻并定位多条同时变化的支路。方法以期望最大化提取变化信号，再用核密度估计定位时刻，并以数据驱动拓扑学习定位线路；在33、226和1262母线系统的实时硬件在环环境中验证。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;对四川公开数据模型而言，可将候选网架接入授权PMU或仿真量测后做动态校验；它提醒我们，静态地图表示的是候选结构，实际运行拓扑需要量测证据。论文对象主要是配电网，迁移到输电网需重新评估可观测性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;EM变化检测＋KDE时刻识别＋数据驱动拓扑学习＋实时仿真器硬件在环测试。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;使用修改后的IEEE 33、226和1262母线仿真系统；作者实验室提供论文PDF入口，但未确认公开代码、PMU序列或完整HIL配置。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;线路停运/新增检测、模型版本校核、运行拓扑监视、信息物理态势感知。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入图片：IEEE页面未提供适合RSS长期引用且许可清晰的独立图像URL。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1109/TSG.2026.3658595&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
+<title>[优先级：高] Tuning grid-forming converters for optimal allocation of virtual inertia and damping in low-inertia power systems</title>
+<link>https://doi.org/10.1016/j.ijepes.2026.111977</link>
+<guid isPermaLink="true">https://doi.org/10.1016/j.ijepes.2026.111977</guid>
+<pubDate>Thu, 29 Oct 2026 00:48:51 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Jérôme Buire；Fadi Kelada；Jane Marchand；Nouredine Hadjsaid&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（International Journal of Electrical Power &amp; Energy Systems 178:111977，2026-05）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;研究新能源高渗透下构网型变流器虚拟惯量和阻尼的最优分配。模型保留同步机、构网型/跟网型变流器及网络元件的高阶动态，通过优化频率最低点、RoCoF和有功峰值比较网状、辐射及随机辐射拓扑，发现最优配置强烈依赖网络结构。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;四川水电、风光与直流外送并存，候选拓扑变化会改变等效电气距离与频率支撑效果。本文适合用来说明虚拟惯量不能简单均匀分配，但其配电级测试结论不能直接外推到省级主网。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;高阶线性化状态空间模型＋频率稳定指标＋预算/可行性约束下的惯量与阻尼优化＋多拓扑对比。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;开放获取论文声明研究未使用外部数据；未确认作者发布代码或可直接运行的算例。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;新能源场站构网控制配置、低惯量频率稳定、拓扑方案比较、虚拟惯量选址。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入图片：未取得来源、稳定外链和复用条件同时明确的原图。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.ijepes.2026.111977&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
+<title>[优先级：中高] Assessing Transmission Grid Resilience Through Graph-Theoretic Contingency Bounds</title>
+<link>https://doi.org/10.1109/ACCESS.2026.3726434</link>
+<guid isPermaLink="true">https://doi.org/10.1109/ACCESS.2026.3726434</guid>
+<pubDate>Thu, 29 Oct 2026 00:48:51 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Pratishtha Shukla；Srikanth B. Yoginath；Maksudul Alam；N. Stenvig&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（IEEE Access 14，131186–131203，2026）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;以图论方法计算输电网在连续扰动下仍能保持供电的故障数量上下界，并定义韧性指数、韧性裕度和脆弱度三个指标。方法在IEEE 39/118母线系统验证，并应用于输电运营商状态估计数据，用于跟踪不同运行条件下的韧性变化。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;它能把复杂网络结构指标与运行状态联系起来，适合在四川候选网架中快速筛选需要进一步做N-k潮流和动态仿真的薄弱区域；图论界限是筛查工具，不等同于精确的保护动作与暂态结果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;图论割与应急故障界限＋连续扰动分析＋三类韧性指标＋IEEE算例和实际状态估计数据验证。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;论文由美国能源部支持并按公共访问计划开放；实际运营商状态估计数据未见公开，未确认专属代码仓库。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;大规模N-k预筛、运行韧性监视、关键元件变化跟踪、规划方案比较。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入图片：未确认论文图件可稳定直链并在RSS中独立复用。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1109/ACCESS.2026.3726434&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
 <title>[优先级：必读] Graph neural networks for transmission grid topology control: Busbar information asymmetry and heterogeneous representations</title>
 <link>https://doi.org/10.1016/j.apenergy.2026.128983</link>
 <guid isPermaLink="true">https://doi.org/10.1016/j.apenergy.2026.128983</guid>
