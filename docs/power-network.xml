@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>电力网络论文晨报</title><link>https://infinitems599.github.io/Animation_flow/</link><description>精选电力网络、复杂网络、输电网络重建及电网建模相关论文，附中文摘要与推荐理由。</description><language>zh-CN</language><atom:link href="https://infinitems599.github.io/Animation_flow/power-network.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item>
+<title>[优先级：必读] Cyber–Physical Power System Dataset for Cyber Security of Digital Substations</title>
+<link>https://doi.org/10.1109/ACCESS.2026.3699153</link>
+<guid isPermaLink="true">https://doi.org/10.1109/ACCESS.2026.3699153</guid>
+<pubDate>Fri, 30 Oct 2026 00:40:28 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Nicola Cibin；Nadine Kabbara；Alfan Presekal；Ioannis Semertzis；V. S. Rajkumar；Himanshu Goyel；Peter Palensky；Alexandru Ştefanov&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（IEEE Access 14，83420–83433；2026-06-01）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;发布面向数字变电站网络安全的高保真信息物理数据集。IEC 61850兼容试验平台由RTDS、物理/虚拟IED和硬件在环系统组成，同时记录电磁暂态三相电压电流、通信流量与虚拟IED资源指标，覆盖正常运行、单相接地、网络侦察、资源耗尽、GOOSE及SV注入攻击。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;四川220 kV及以上模型最终若扩展到数字变电站与通信层，需要可复现的数据来区分物理故障和网络攻击。该数据集可作为CPPS检测算法的公开起点，但其测试系统不代表四川真实站端配置。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;RTDS实时仿真＋物理/虚拟IED硬件在环＋IEC 61850通信＋多源同步采集与攻击场景注入。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;数据公开于Zenodo（DOI 10.5281/zenodo.15371179），约480 MB，包含CSV量测、IED资源日志、PCAPNG流量及预处理代码；流量已匿名化。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;数字变电站异常检测、故障/攻击分类、GOOSE与SV安全、信息物理联合状态识别。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入图片：IEEE页面虽展示试验架构图，但未提供适合RSS长期直链且复用条件独立明确的图像URL。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1109/ACCESS.2026.3699153&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
+<title>[优先级：必读] Coordinated scheduling of inter-regional systems connected via HVDC links: A distributionally robust approach with emergency power support for frequency stability</title>
+<link>https://doi.org/10.1016/j.renene.2026.125655</link>
+<guid isPermaLink="true">https://doi.org/10.1016/j.renene.2026.125655</guid>
+<pubDate>Fri, 30 Oct 2026 00:40:28 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Chuan He；Yuqi Zhang；Yue Yin；Jing Tan；Tianqi Liu；Zhi An；Dong Xing；Wenju Liang&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（Renewable Energy 266:125655，2026）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;建立跨区域AC系统经HVDC联接的两阶段矩分布鲁棒调度模型，同时考虑光伏不确定性、火电/梯级水电/抽水蓄能一次调频和HVDC紧急功率支援，并转化为混合整数线性规划。结果表明HVDC调节可兼顾新能源消纳、经济性与低惯量频率稳定。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;作者团队包含四川大学研究者，问题设置与四川的梯级水电、新能源基地和直流外送高度相关。它适合为四川高压模型补充跨区边界与频率支撑约束，但仍需要实际直流控制限值和机组动态参数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;两阶段矩分布鲁棒优化＋多类型机组PFR模型＋HVDC紧急支援＋MILP重构。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;未确认公开代码或完整算例数据；论文由国家电网科技项目支持，公开页面给出模型和数值结果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;直流外送调度、光伏消纳、跨区频率支撑、水风光储协同和低惯量运行规划。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入图片：未找到来源、稳定外链及复用许可同时明确的论文原图。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.renene.2026.125655&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
+<title>[优先级：高] Multi-Dimensional Stability Constrained Bi-Level Topology Optimisation Method for HVDC Systems Embedded in Dense AC Grids</title>
+<link>https://doi.org/10.1049/gtd2.70249</link>
+<guid isPermaLink="true">https://doi.org/10.1049/gtd2.70249</guid>
+<pubDate>Fri, 30 Oct 2026 00:40:28 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Mingxin Yan；Ying Huang；Guoteng Wang；Hui Cai；Zheng Xu；Xingning Han&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（IET Generation, Transmission &amp; Distribution 20(1):e70249；2026-02-02）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;面向嵌入密集交流网的HVDC系统，构建双层拓扑优化：上层负责经济规划，下层以惩罚函数进行稳定性修正，同时约束正常及N-1潮流、短路电流、电压稳定和暂态稳定，避免仅按建设成本或静态潮流选择直流落点与接线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;四川主网含多条直流送出通道，候选拓扑不能只验证潮流收敛；本文提供了把短路、N-1、电压和暂态稳定统一纳入拓扑选择的清晰框架。实际应用仍需真实故障容量和动态模型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;HVDC—AC耦合分析＋多维稳定约束＋双层拓扑优化＋下层稳定校正惩罚函数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;论文开放获取；未确认公开代码或完整测试系统数据。作者包括浙江大学及国网江苏经研院团队。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;直流落点与接线规划、密集交流网解耦、短路电流治理、输电扩建方案筛选。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入图片：开放论文页面未给出适合在RSS中稳定复用的独立图片直链。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1049/gtd2.70249&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
+<title>[优先级：高] A tri-level framework for flexibility-enabled resilience enhancement of cyber-physical power systems with high renewable energy penetration under coordinated attacks</title>
+<link>https://doi.org/10.1016/j.apenergy.2026.127767</link>
+<guid isPermaLink="true">https://doi.org/10.1016/j.apenergy.2026.127767</guid>
+<pubDate>Fri, 30 Oct 2026 00:40:28 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Chuangzhi Li；Tianlei Zang；Buxiang Zhou；Shen Dong；Longjie Yang&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（Applied Energy，Article 127767，2026-07-01）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;将高比例新能源CPPS的韧性问题建模为防御—攻击—恢复三层鲁棒优化，显式考虑协同信息物理攻击、灵活性资源和恢复决策，并以嵌套列与约束生成算法求解混合整数模型。研究强调攻击前防御、攻击过程影响和攻击后恢复必须共同设计。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;适合作为四川高压网知识图谱向信息物理韧性模型扩展的框架：候选拓扑、通信依赖、可中断负荷、储能和机组调节能力都可以进入恢复优化；但公开拓扑不能替代真实通信与控制依赖。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;防御—攻击—恢复三层鲁棒优化＋协同攻击建模＋灵活性资源阶梯调节＋NCCG算法。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;未确认作者公开代码、攻击样本或完整测试数据；应将论文作为方法框架而非可直接部署模型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;新能源高渗透下的协同攻击防御、恢复资源配置、负荷削减与弃能权衡。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入图片：出版商页面未提供许可和长期可访问性均明确的独立图像URL。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.apenergy.2026.127767&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
+<title>[优先级：中高] A conceptual view of grid weakness in transmission and distribution systems</title>
+<link>https://doi.org/10.1016/j.epsr.2026.113193</link>
+<guid isPermaLink="true">https://doi.org/10.1016/j.epsr.2026.113193</guid>
+<pubDate>Fri, 30 Oct 2026 00:40:28 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Izhar Us Salam；Andrea Mazza；Gianfranco Chicco&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（Electric Power Systems Research 259:113193，2026-10）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;从输电和配电两个层级统一梳理弱电网概念，讨论短路比、刚度比和基于阻抗的指标之间的联系，并分析低惯量、短路容量下降、电压/频率不稳定、保护配合以及新能源主导网络的控制与增强措施。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;四川候选220 kV及以上模型需要区分“结构稀疏”与“电气弱”：线路少不一定弱，拓扑连接也不等于短路容量充足。本文适合建立新能源接入点的弱网指标清单，但作为综述不提供具体四川参数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;概念统一与指标比较＋输配电跨层分析＋短路容量/阻抗/惯量关联＋控制缓解策略综述。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;开放获取综述；未生成新的统一数据集或代码。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;新能源接入点筛查、构网控制需求判断、短路容量与保护协调分析、模型验证指标设计。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入图片：未确认综述图表具备稳定直链和RSS独立复用许可。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.epsr.2026.113193&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
 <title>[优先级：必读] Satellite-Only 3D Digitization of Hundred-Kilometer-Scale High-Voltage Transmission Lines</title>
 <link>https://doi.org/10.3390/rs18193398</link>
 <guid isPermaLink="true">https://doi.org/10.3390/rs18193398</guid>
