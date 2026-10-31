@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>电力网络论文晨报</title><link>https://infinitems599.github.io/Animation_flow/</link><description>精选电力网络、复杂网络、输电网络重建及电网建模相关论文，附中文摘要与推荐理由。</description><language>zh-CN</language><atom:link href="https://infinitems599.github.io/Animation_flow/power-network.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl><item>
+<title>[优先级：必读] Structure-Aware Unsupervised Transmission Corridor Structure Extraction From 3DEP Lidar Using Graph Attention Embeddings and Reinforcement-Learned DBSCAN</title>
+<link>https://doi.org/10.1111/tgis.70340</link>
+<guid isPermaLink="true">https://doi.org/10.1111/tgis.70340</guid>
+<pubDate>Sat, 31 Oct 2026 00:22:24 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Nanzhou Hu；Zhe Zhang；Samantha T. Arundel；Ethan J. Shavers；Jung-Kuan Liu&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（Transactions in GIS 30(5):e70340，2026-07-09）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;提出面向国家级机载LiDAR的无监督输电走廊结构提取流程：先做离地高度筛选、离群点清理和局部PCA，再以图注意力网络和结构一致性三元组目标学习点嵌入；将DBSCAN参数选择建模为强化学习问题，用PPO按空间块自适应调整聚类参数，最后跨块合并导线与塔候选。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;它直接解决四川山地大范围点云密度和噪声不均的问题，而且不依赖逐点人工语义标注。可作为公开粗拓扑的局部核验模块；但美国3DEP精度和四川可获得点云条件不同，需要单独做域适配。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;高度归一化＋统计滤波＋PCA几何特征＋GAT嵌入＋三元组学习＋PPO自适应DBSCAN＋空间合并。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;实验数据来自公开USGS 3D Elevation Program，可通过The National Map下载；以OSM矢量作为空间一致性参照。论文未明确给出完整代码仓库。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;走廊候选提取、塔线资产盘点、大规模点云预处理、OSM与LiDAR交叉核验。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入原图：数据源公开，但未确认论文图件具有适合RSS长期引用的独立稳定URL。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1111/tgis.70340&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
+<title>[优先级：必读] SafePowerGraph: A safety-aware benchmarking framework for scalable graph neural networks in power flow and optimal power flow</title>
+<link>https://doi.org/10.1016/j.egyai.2026.100819</link>
+<guid isPermaLink="true">https://doi.org/10.1016/j.egyai.2026.100819</guid>
+<pubDate>Sat, 31 Oct 2026 00:22:24 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Aoxiang Ma；Salah Ghamizi；Aleksandar Bojchevski；Pei Zhang；Jun Cao&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（Energy and AI 25:100819，2026-09）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;发布面向潮流和最优潮流的安全感知GNN基准，统一PandaPower、MATPOWER、PowerModels.jl和OpenDSS，并在负荷变化、电价扰动与N-1线路停运下测试。异构图和物理约束损失可显著降低潮流方程残差与运行约束违背，覆盖9至13659母线网络。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;四川候选高压网不仅要让模型预测误差低，还要检查线路限额、电压与无功约束。该框架适合把不同拓扑版本做统一安全基准，但训练结果不能证明公开推断的线路真实存在。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;异构图表示＋GAT/多类GNN＋AC潮流物理损失＋N-1、电价和负荷扰动基准＋多求解器接口。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;代码、数据集、模型库和预训练模型公开于GitHub（LISTEnergyIntelligence/SafePowerGraph_Powergrid；另有yamizi/SafePowerGraph维护入口）。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;潮流代理、OPF加速、N-1安全评估、跨规模GNN对比、候选拓扑压力测试。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入图片：代码与模型入口已保留，但论文配图未确认具有稳定可复用直链。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.egyai.2026.100819&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
+<title>[优先级：高] Power dispatch for integrating renewable energy: network reliability evaluation and transmission line routing</title>
+<link>https://doi.org/10.1007/s10479-025-07006-8</link>
+<guid isPermaLink="true">https://doi.org/10.1007/s10479-025-07006-8</guid>
+<pubDate>Sat, 31 Oct 2026 00:22:24 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Ting-Hau Shih；Yi-Kuei Lin&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（Annals of Operations Research，2026-01-08；DOI注册串含2025）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;将高压电力系统表示为多状态电网网络：电厂、变电站和线路分别作为源、节点与边，并允许机组和导线处于完全故障、部分故障或检修状态。通过最小路径与最小功率向量计算满足负荷的网络可靠度，同时找出可行输电路径，并以台湾真实高压网络验证。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;该方法把线路路由、设备多状态和供电可靠性放在同一图模型中，适合对四川候选220/500 kV骨架进行路径冗余筛查。它仍是概率可靠性模型，不能替代AC潮流、保护和暂态稳定计算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;多状态电力网络＋最小路径枚举＋最小功率向量＋可靠度概率计算＋可行输电路由识别。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;论文开放获取；真实台湾高压网络用于案例验证，但未确认完整网络数据或实现代码公开。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;新能源送出路径选择、输电通道冗余评估、检修状态分析、可靠性导向规划。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入图片：案例网络图未确认有许可清晰且可长期直链的独立图像地址。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1007/s10479-025-07006-8&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
+<title>[优先级：高] GIS-driven computer vision to improve power distribution monitoring using satellite images</title>
+<link>https://doi.org/10.1016/j.epsr.2026.112931</link>
+<guid isPermaLink="true">https://doi.org/10.1016/j.epsr.2026.112931</guid>
+<pubDate>Sat, 31 Oct 2026 00:22:24 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Nelson Rodrigues；Paulo C. M. Meira；Ricardo Torquato；Walmir Freitas；Fernanda C. L. Trindade&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（Electric Power Systems Research 256:112931，2026-07）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;以卫星影像、GIS和开源计算机视觉工具完成三类电网监测任务：识别疑似非正规接入区域、绘制植被侵占风险、检测屋顶光伏并估算装机容量。研究使用巴西电力公司真实数据验证，展示了免费地理影像在大范围数据库更新中的低成本价值。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;虽然对象偏配电网，但其“GIS对象—影像证据—数据库更新”流程适合四川项目：遥感更适合补充走廊环境、植被和新能源资源，而不是凭中低分辨率影像推断220 kV运行接线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;GIS空间筛选＋卫星影像＋目标识别/图像处理＋颜色分割＋真实公用事业数据验证。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;方法依赖开源工具和免费地理影像；巴西电力公司的完整业务数据与代码未确认公开。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;线路走廊植被风险、光伏资源补全、地理数据库更新、巡检区域优先级排序。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入图片：卫星底图和企业案例图的再分发条件未能同时确认。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.epsr.2026.112931&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
+<title>[优先级：高] End-to-end cyber resilience enhancement for renewable-dominated power grids</title>
+<link>https://doi.org/10.1038/s44287-026-00334-2</link>
+<guid isPermaLink="true">https://doi.org/10.1038/s44287-026-00334-2</guid>
+<pubDate>Sat, 31 Oct 2026 00:22:24 GMT</pubDate>
+<description>&lt;article&gt;&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Mengxiang Liu；Thomas Parisini；Emil Lupu；Henrik Sandberg；Nikolaos Hatziargyriou；Fei Teng&lt;/p&gt;&lt;p&gt;&lt;strong&gt;年份与状态：&lt;/strong&gt;正式发表（Nature Reviews Electrical Engineering，2026-10-09）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;提出面向新能源主导电网的端到端信息物理韧性框架，将攻击前预防、入侵检测、物理影响抑制、运行恢复和反馈学习串成完整生命周期。论文强调大量联网新能源与储能扩大攻击面，而同步机退出导致惯量和电网强度下降，使网络攻击更快转化为物理服务损失。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;对四川模型而言，通信层不能简单附加在电气拓扑旁边，而应显式连接变流器控制、保护动作、频率/电压安全域与恢复资源。本文适合制定CPPS验证路线图，但属于观点/综述性质，不提供省级模型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;跨层威胁链＋攻击生命周期＋网络与物理协同防御＋韧性性能曲线＋IEEE 14母线示例。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;观点论文未发布新的统一数据集或代码；相关示例用于说明框架，不构成可直接部署的攻击检测器。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;新能源场站网络安全、跨层故障传播、韧性指标设计、防御与恢复协同。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;未嵌入图片：出版协议未授予RSS二次发布原图的明确权利，故仅保留论文链接。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1038/s44287-026-00334-2&quot;&gt;论文/DOI链接&lt;/a&gt;&lt;/p&gt;&lt;/article&gt;</description>
+</item>
+<item>
 <title>[优先级：必读] Cyber–Physical Power System Dataset for Cyber Security of Digital Substations</title>
 <link>https://doi.org/10.1109/ACCESS.2026.3699153</link>
 <guid isPermaLink="true">https://doi.org/10.1109/ACCESS.2026.3699153</guid>
