@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>电力网络论文晨报</title><link>https://infinitems599.github.io/Animation_flow/</link><description>精选电力网络、复杂网络、输电网络重建及电网建模相关论文，附中文摘要与推荐理由。</description><language>zh-CN</language><atom:link href="https://infinitems599.github.io/Animation_flow/power-network.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl>    <item>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>电力网络论文晨报</title><link>https://infinitems599.github.io/Animation_flow/</link><description>精选电力网络、复杂网络、输电网络重建及电网建模相关论文，附中文摘要与推荐理由。</description><language>zh-CN</language><atom:link href="https://infinitems599.github.io/Animation_flow/power-network.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl>        <item>
+      <title>[优先级 A1] UAV细导线检测与结构重建：全局关键点回归</title>
+      <link>https://doi.org/10.3390/rs18213754</link>
+      <guid isPermaLink="false">10.3390/rs18213754</guid>
+      <pubDate>Mon, 02 Nov 2026 00:12:41 GMT</pubDate>
+      <description>&lt;h2&gt;Power Line Structure Reconstruction and Detection Method Based on Global Regression of Keypoints&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Xinwei Sun, Kang Xu, Huafu Pei, Bin Pan, Yongheng Tang&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;Remote Sensing 18(21), 3754；2026-10-31，正式发表、开放获取&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.3390/rs18213754&quot;&gt;10.3390/rs18213754&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;针对无人机影像中导线细、低对比、受植被和地物遮挡而导致分割断裂的问题，论文让同一导线的全部关键点共同回归到一个全局起始参考点，再通过多尺度区域感知特征、门控线特征聚合和线性结构感知模块恢复导线实例。在PLDU、TTPLA与自建CPLD数据集上的IoU分别达到85.76%、75.23%和70.44%。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;四川山区高压走廊常有植被遮挡、弧垂和复杂背景，这种“关键点分组—折线重建”比单纯二值分割更接近后续线路矢量化需求；但它只恢复影像中的可见导线，不直接给出塔间电气连接、电压等级或运行接线。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;全局关键点回归；MSRAFE多尺度特征；LFA门控融合；LSAFS几何约束；ResNeXt50；Hungarian匹配。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;PLDU和TTPLA为公开数据集；含山地、农田和河流场景的CPLD因隐私原因不公开。论文未给出可确认的完整训练代码或模型权重仓库。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;UAV巡检影像导线提取、断裂线段连接、走廊几何矢量化，以及局部高精度线路模型校核。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；开放获取正文的Figure 2、3、7、8分别展示网络结构、关键点关联和公开数据集对比，来源为论文原文。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[优先级 A1] 开源LiDAR与OSM联合重建公用设施网络</title>
+      <link>https://doi.org/10.1109/IRI69576.2026.00104</link>
+      <guid isPermaLink="false">10.1109/IRI69576.2026.00104</guid>
+      <pubDate>Mon, 02 Nov 2026 00:12:41 GMT</pubDate>
+      <description>&lt;h2&gt;Semi-Automated, Open-Sourced Utility Network Reconstruction Using LiDAR and OpenStreetMaps&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Alyssa Acquaviva, Al-Idrisi Haddad, Owen Tanuwidjaja, Deepak Vaidhynathan, Kumaraguru Prabakar, David Martinez Biro&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;2026 IEEE International Conference on Information Reuse and Integration for Data Science (IRI), pp. 532–535；2026-07-31至08-02会议，正式会议论文&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.1109/IRI69576.2026.00104&quot;&gt;10.1109/IRI69576.2026.00104&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;论文提出半自动、开源的公用设施网络重建流程，联合LiDAR点云与OpenStreetMap要素，从空间观测中恢复设备位置和网络连接。其核心价值不是单一识别模型，而是把公开地理对象、点云证据、人工核验与可复用网络数据结构串联起来。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;与“四川公开粗拓扑＋局部高精度遥感核验”的现实条件高度匹配。可先用OSM恢复候选站线，再在有公开或授权LiDAR的样区校正杆塔、线路走向和缺失连接，保留证据来源而非直接把推断边当成事实。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;OSM设施抽取；LiDAR空间特征；半自动对象匹配；拓扑连接恢复；人工复核和开源数据复用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;题目和论文说明明确强调open-sourced，但本次核验到的论文元数据页没有给出可确认的专属代码仓库和完整数据下载地址；复现前应从作者/国家实验室项目页进一步核对版本。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;公开资料驱动的配电/输电资产盘点、OSM缺失对象补全、LiDAR样区验证、GIS网络数据库更新。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；未取得来源、长期直链和复用条件同时明确的论文图。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[优先级 A2] 物理特征与对抗训练增强的电网拓扑辨识</title>
+      <link>https://doi.org/10.1016/j.epsr.2025.112670</link>
+      <guid isPermaLink="false">10.1016/j.epsr.2025.112670</guid>
+      <pubDate>Mon, 02 Nov 2026 00:12:41 GMT</pubDate>
+      <description>&lt;h2&gt;Physics-informed data-driven topology identification in power distribution networks with adversarial robustness enhancement&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;M. Duan, W. Zhang, J. Chen, W. Shi, Z. Xu, J. Zhao&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;Electric Power Systems Research 254, 112670；2026-05，正式期刊论文（DOI字符串登记于2025年）&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.1016/j.epsr.2025.112670&quot;&gt;10.1016/j.epsr.2025.112670&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;文章在有限μPMU布点条件下，以参考拓扑为基准构造潮流残差特征，将电气物理信息嵌入数据驱动分类器，并通过对抗训练提高对量测扰动和恶意微扰的鲁棒性。方法同时支持辐射状与网状结构，并在33、69和118节点系统上验证快速拓扑辨识能力。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;公开数据推断得到的四川高压拓扑应被视为候选图；该文提供“参考拓扑＋少量授权量测＋物理残差”的校正思路。虽然论文面向配电网，残差构造和对抗鲁棒性可迁移到220 kV站内开关状态或局部网架变化识别。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;物理信息特征工程；潮流残差；有限μPMU；监督拓扑分类；对抗训练；辐射/网状网络测试。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;使用标准33、69、118节点算例；未确认作者公开训练代码、扰动样本或完整参数文件。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;候选拓扑校验、开关状态辨识、量测异常下的拓扑鲁棒更新、信息物理攻击场景测试。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；未取得许可和稳定直链均明确的原图。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[优先级 A2] 拓扑感知联邦学习：异构电网暂态稳定评估</title>
+      <link>https://doi.org/10.1016/j.segan.2026.102505</link>
+      <guid isPermaLink="false">10.1016/j.segan.2026.102505</guid>
+      <pubDate>Mon, 02 Nov 2026 00:12:41 GMT</pubDate>
+      <description>&lt;h2&gt;Physics-informed and topology-aware federated learning for transient stability assessment: A generative robust framework in heterogeneous power grids&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Zhenyu Tang, Qingjun Xiao, Wei Tai&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;Sustainable Energy, Grids and Networks 47, 102505；2026-09，正式期刊论文&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.1016/j.segan.2026.102505&quot;&gt;10.1016/j.segan.2026.102505&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;论文提出PAT-FL框架，把物理约束、网络拓扑表达、联邦学习和生成式数据增强结合起来，处理高比例变流器电网中不稳定故障样本稀缺、区域数据无法集中共享以及不同子网数据分布不一致的问题，目标是在不汇集原始区域量测的情况下进行跨区域暂态稳定评估。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;四川主网包含水电基地、新能源汇集区、负荷中心和外送通道，区域动态特性差异明显；拓扑感知联邦建模适合按分区训练并保留数据边界。不过模型性能仍取决于真实动态参数和故障样本，不能用公开静态拓扑直接复现。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;物理信息学习；拓扑感知表示；联邦学习；生成式少数类增强；异构区域聚合；暂态稳定分类。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;本次未确认公开原始训练数据、联邦划分脚本、生成模型权重或作者代码仓库。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;分区暂态安全评估、新能源基地与主网协同建模、数据不出域的跨机构模型训练、稀缺失稳样本增强。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；出版商摘要页未提供可长期复用的独立图片地址。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[优先级 A1] 拓扑变化弱网下构网型变流器的阻抗感知稳定保护</title>
+      <link>https://doi.org/10.1016/j.egyr.2026.109214</link>
+      <guid isPermaLink="false">10.1016/j.egyr.2026.109214</guid>
+      <pubDate>Mon, 02 Nov 2026 00:12:41 GMT</pubDate>
+      <description>&lt;h2&gt;Impedance-aware enforcement of transient stability regions for grid-forming converters&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Sungchul Hwang, Minhan Yoon&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;Energy Reports 15, 109214；2026-06，正式研究论文、开放获取&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.1016/j.egyr.2026.109214&quot;&gt;10.1016/j.egyr.2026.109214&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;文章分析构网型变流器在外部系统阻抗变化时可接受的有功运行区域，并提出阻抗感知辅助保护：仅使用本地电压、电流估计联网阻抗，在拓扑切换导致网强下降时保守缩减有功参考值，从而避免工作点越过暂态稳定边界。仿真表明该机制能改善拓扑诱发弱网条件下的暂态稳定性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;它把“拓扑改变”明确连接到“等值阻抗—稳定域—控制限值”，很适合四川新能源场站接入点和220/500 kV送出通道N-1后的弱网分析。相比只计算短路比，该方法更接近在线保护与控制实施。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;系统阻抗在线感知；构网型变流器暂态稳定域；有功参考自适应限幅；本地电压/电流监督；拓扑变化弱网仿真。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;论文声明研究未使用外部数据；未确认公开仿真模型或控制代码。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;新能源汇集站弱网保护、线路跳闸后的GFM降额控制、接入点稳定裕度评估、拓扑变化下控制参数整定。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；开放获取正文包含稳定域和控制机制图，未取得适合RSS长期嵌入的稳定图片直链。&lt;/p&gt;</description>
+    </item>
+<item>
       <title>[优先级 A1] 改进A*与无人机三维地形：220 kV架空输电线路路径规划</title>
       <link>https://doi.org/10.1038/s41598-026-53156-5</link>
       <guid isPermaLink="false">10.1038/s41598-026-53156-5</guid>
@@ -13,7 +83,7 @@
 &lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;220 kV及以上新建线路走廊初选、地形约束路径优化、遥感辅助线路模型校核。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；论文正文含研究区、三维地形和路径对比图，来源为论文原文。&lt;/p&gt;</description>
     </item>
-    <item>
+<item>
       <title>[优先级 A1] 相关风—荷不确定性与N-1约束下的输电扩网规划</title>
       <link>https://doi.org/10.1002/eng2.70880</link>
       <guid isPermaLink="false">10.1002/eng2.70880</guid>
@@ -27,7 +97,7 @@
 &lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;高比例新能源下的500/220 kV网架扩建、断面强化、投资—可靠性权衡和规划方案压力测试。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；可在开放获取论文及补充材料中查看模型流程与算例结果。&lt;/p&gt;</description>
     </item>
-    <item>
+<item>
       <title>[优先级 A2] 准动态仿真的短期输电扩网：新能源接入后的拥塞与电压诊断</title>
       <link>https://doi.org/10.1155/er/5262693</link>
       <guid isPermaLink="false">10.1155/er/5262693</guid>
@@ -41,7 +111,7 @@
 &lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;近中期扩网、季节性断面校核、新能源并网方案比较、运行方式驱动的候选线路筛选。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；论文原文提供仿真流程和结果图，来源为出版商页面。&lt;/p&gt;</description>
     </item>
-    <item>
+<item>
       <title>[优先级 A2] 可再生能源富集电网的网络攻击韧性：可调网络安全服务</title>
       <link>https://doi.org/10.1109/TPWRS.2026.3684144</link>
       <guid isPermaLink="false">10.1109/TPWRS.2026.3684144</guid>
@@ -55,7 +125,7 @@
 &lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;电力信息物理联合建模、关键站点风险排序、攻击下安全运行和安全资源配置。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；作者接受稿含框架与算例图，图片来源应以论文标注为准。&lt;/p&gt;</description>
     </item>
-    <item>
+<item>
       <title>[优先级 A2] 电力信息物理系统韧性综述：威胁分类、建模与评估指标</title>
       <link>https://doi.org/10.1016/j.egyr.2026.109209</link>
       <guid isPermaLink="false">10.1016/j.egyr.2026.109209</guid>
