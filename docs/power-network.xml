@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>电力网络论文晨报</title><link>https://infinitems599.github.io/Animation_flow/</link><description>精选电力网络、复杂网络、输电网络重建及电网建模相关论文，附中文摘要与推荐理由。</description><language>zh-CN</language><atom:link href="https://infinitems599.github.io/Animation_flow/power-network.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl>        <item>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>电力网络论文晨报</title><link>https://infinitems599.github.io/Animation_flow/</link><description>精选电力网络、复杂网络、输电网络重建及电网建模相关论文，附中文摘要与推荐理由。</description><language>zh-CN</language><atom:link href="https://infinitems599.github.io/Animation_flow/power-network.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl>            <item>
+      <title>[优先级 A1] 公开影像细化≥230 kV变电站：从OSM点位到元件级拓扑</title>
+      <link>https://doi.org/10.1029/2026SW005166</link>
+      <guid isPermaLink="false">10.1029/2026SW005166</guid>
+      <pubDate>Tue, 03 Nov 2026 00:16:00 GMT</pubDate>
+      <description>&lt;h2&gt;Systematic Component-Level Characterization of Electricity Transmission Infrastructure for Space Weather Risk Assessment&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Dennies K. Bor, Edward J. Oughton, Evan A. Peters, Noah Rivera, C. Trevor Gaunt, Robert S. Weigel, Michael Wiltberger&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;Space Weather 24(9), e2026SW005166；2026-09-09，正式期刊论文&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.1029/2026SW005166&quot;&gt;10.1029/2026SW005166&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;论文从OpenStreetMap中的1313座高压变电站（≥230 kV）出发，借助低空、卫星和Street View影像，在浏览器标注平台中细化到52273个元件并识别7949台变压器，随后为TVA区域构建地磁感应电流网络，并与UIUC150合成网及13个监测装置的量测比较。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;这是本期对四川220 kV及以上变电站建模最直接的参考：它展示了如何将OSM的单个变电站面/点扩展为电压层、母线、变压器和站内连接等元件级表示，同时明确处理关键基础设施敏感性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;OSM设施筛选；多源公开影像人工标注；元件级站内图构建；C-MAP标注平台；C-SWIM网络与GIC仿真；实测/合成网交叉验证。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;原始元件级标注因涉及具名设施与详细配置不公开；C-SWIM、C-MAP代码快照以及TVA/UIUC150处理数据、蒙特卡洛结果和验证表已在Zenodo公开：&lt;a href=&quot;https://zenodo.org/records/21986729&quot;&gt;支持数据与代码&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;220/500 kV变电站内部结构重建、变压器数量与电压层核验、空间天气/GIC分析及公开数据可信度评估。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；论文原文含标注平台、站内元件和案例网络图，未取得同时满足稳定直链与复用条件的单独图片地址。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[优先级 A1] 高比例变流器电网：开源并行稳定数据生成框架</title>
+      <link>https://doi.org/10.1016/j.ijepes.2026.111931</link>
+      <guid isPermaLink="false">10.1016/j.ijepes.2026.111931</guid>
+      <pubDate>Tue, 03 Nov 2026 00:16:00 GMT</pubDate>
+      <description>&lt;h2&gt;Data generation for stability studies of power systems with high penetration of inverter-based resources&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Francesca Rossi, Mauro Garcia Lorenzo, Eduardo Iraola de Acevedo, Elia Mateu Barriendos, Vinicius Albernaz Lacerda, Francesc Lordan-Gomis, Rosa Badia, Eduardo Prieto-Araujo&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;International Journal of Electrical Power &amp;amp; Energy Systems；2026，正式期刊论文&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.1016/j.ijepes.2026.111931&quot;&gt;10.1016/j.ijepes.2026.111931&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;论文提出面向高比例变流器电网的小信号稳定数据生成框架，以可扩展运行空间表示IBR渗透率、控制参数及GFM/GFL角色，通过灵敏度引导、自适应和熵采样将计算资源集中到稳定边界附近，并使用Python和HPC并行执行；基于生成数据训练的机器学习模型稳定分类准确率最高约92%。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;公开网架只能提供静态骨架，四川新能源稳定研究还缺少大规模、覆盖控制参数的动态样本。该框架可以在自建220/500 kV候选模型上系统扫描运行方式、变流器控制和网强，而不是随意抽取仿真工况。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;高维运行空间压缩；小信号特征值分析；灵敏度引导采样；熵采样；AC-OPF初始化；Python/HPC并行数据生成。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;代码公开于&lt;a href=&quot;https://github.com/MauroGarciaLorenzo/datagen&quot;&gt;datagen仓库&lt;/a&gt;，并依赖公开的stability-analysis与定制GridCal组件；仓库提供环境、YAML配置和并行执行说明。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;IBR稳定数据集生成、GFM/GFL参数扫描、稳定边界学习、暂稳/小信号代理模型训练前的数据工程。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；未确认出版商图件存在可长期复用的稳定直链。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[优先级 A1] 跨区输电扩建的边际价值：新能源、储能与新线路如何替代</title>
+      <link>https://doi.org/10.1016/j.apenergy.2026.128145</link>
+      <guid isPermaLink="false">10.1016/j.apenergy.2026.128145</guid>
+      <pubDate>Tue, 03 Nov 2026 00:16:00 GMT</pubDate>
+      <description>&lt;h2&gt;Optimal transmission expansion modestly reduces decarbonization costs of U.S. electricity&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Rangrang Zheng, Greg Schivley, Matthias Fripp, Michael J. Roberts&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;Applied Energy 421, 128145；2026-10-15，正式期刊论文&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.1016/j.apenergy.2026.128145&quot;&gt;10.1016/j.apenergy.2026.128145&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;研究利用开源Switch容量扩展模型和PowerGenome数据，在2050年最小成本、碳价和零排放情景下联合优化发电、储能、跨区输电与52周逐时运行。零排放情景中最优跨区容量显著增长，但相较不新增跨区通道，总系统成本仅下降约7%；完整扩建收益的五分之一可由约十二分之一的新增容量实现，说明扩网存在明显边际收益递减。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;对四川不能只得出“新能源越多就越要扩网”的结论。该文适合比较外送通道、储能、新能源选址和常规电源之间的替代关系，并帮助区分少数高价值断面与低收益的普遍增容。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;长期容量扩展；逐时运行约束；跨区输电容量联合优化；零排放/碳价情景；先进导线与储能成本敏感性分析。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;采用开源&lt;a href=&quot;https://switch-model.org/&quot;&gt;Switch&lt;/a&gt;和PowerGenome，输入还引用PUDL公开数据；论文专用情景文件是否完整归档需进一步核对。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;川电外送通道规划、220/500 kV关键断面扩建、储能替代输电分析、长期新能源消纳方案比较。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；论文图表未取得许可与稳定直链均明确的外部地址。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[优先级 A2] 现代输电扩展规划综述：从确定性模型到随机—鲁棒混合框架</title>
+      <link>https://doi.org/10.1016/j.egyr.2026.109313</link>
+      <guid isPermaLink="false">10.1016/j.egyr.2026.109313</guid>
+      <pubDate>Tue, 03 Nov 2026 00:16:00 GMT</pubDate>
+      <description>&lt;h2&gt;A comprehensive review of modern transmission expansion planning&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Homod M. Ghazal, Umer Amir Khan&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;Energy Reports 15, 109313；2026-06，正式同行评审综述、开放获取&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.1016/j.egyr.2026.109313&quot;&gt;10.1016/j.egyr.2026.109313&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;综述梳理输电扩展规划从固定预测下的成本最小化，演进到随机、鲁棒、混合及数据驱动框架的过程，覆盖新能源与负荷不确定性、N-k可靠性、韧性、多目标环境约束、储能、HVDC、人工智能和数字孪生，并指出相关性场景、高维不确定性与计算规模仍是核心瓶颈。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;适合作为四川高压网规划研究的方法地图：可据此把候选线路生成、潮流安全校核、随机场景、韧性和政策/环境约束分层，而不是把所有目标塞进一个难以解释的模型。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;分类综述；确定性/随机/鲁棒/混合TEP比较；可靠性与韧性指标归纳；AI、储能和HVDC融合路线分析。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;综述未发布统一代码；出版商页面注明支撑数据可向作者申请。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;研究路线设计、TEP模型选型、候选场景与指标体系建立、文献追踪。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；开放正文包含分类与演进图，但未取得适合RSS稳定引用的独立图片地址。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[优先级 A2] 无实时拓扑通信的重构检测：残差触发阻抗与电压灵敏度更新</title>
+      <link>https://doi.org/10.1038/s41598-026-76477-x</link>
+      <guid isPermaLink="false">10.1038/s41598-026-76477-x</guid>
+      <pubDate>Tue, 03 Nov 2026 00:16:00 GMT</pubDate>
+      <description>&lt;h2&gt;Residual-triggered active sensitivity estimation for topology-change detection and voltage control with MAPO-SOP&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Youzhuo Zheng, Yutao Xu, Yekui Yang, Yuchu Lu, Di Weng, Yanhong Jiang&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;Scientific Reports；2026-10-22，正式发表、开放获取&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.1038/s41598-026-76477-x&quot;&gt;10.1038/s41598-026-76477-x&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;论文针对网络重构后SOP看到的馈线等值阻抗改变、固定电压控制模型失准的问题，以电压预测残差连续超阈值作为触发条件，先通过安全反馈把PCC电压拉回恢复区，再施加单边协调扰动估计新的电压—功率灵敏度，并在X/R比近似不变的条件下重构等值参数。10 kV双馈线实验中，两种切换方向的参数误差为0.20%和2.51%。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;论文虽是配电SOP场景，但其“残差发现拓扑突变—主动辨识等值阻抗—更新控制模型”链条可迁移到高压网的在线模型校核。对四川候选拓扑而言，它提示无需每次直接获取完整开关状态，也可通过量测残差判断模型已经失效。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;PCC解析电压模型；残差持续判据；安全反馈控制；单边主动扰动；灵敏度辨识；等值R/X参数重构。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;正文公开算法、阈值和10 kV仿真结果；未确认独立数据集、控制代码或实时仿真模型仓库。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;拓扑变化检测、在线等值参数更新、模型失配告警、SOP/柔性互联装置自适应电压控制。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；论文正文可查看控制流程和切换实验图，未取得可长期嵌入的稳定图片直链。&lt;/p&gt;</description>
+    </item>
+<item>
       <title>[优先级 A1] UAV细导线检测与结构重建：全局关键点回归</title>
       <link>https://doi.org/10.3390/rs18213754</link>
       <guid isPermaLink="false">10.3390/rs18213754</guid>
@@ -13,7 +83,7 @@
 &lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;UAV巡检影像导线提取、断裂线段连接、走廊几何矢量化，以及局部高精度线路模型校核。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；开放获取正文的Figure 2、3、7、8分别展示网络结构、关键点关联和公开数据集对比，来源为论文原文。&lt;/p&gt;</description>
     </item>
-    <item>
+<item>
       <title>[优先级 A1] 开源LiDAR与OSM联合重建公用设施网络</title>
       <link>https://doi.org/10.1109/IRI69576.2026.00104</link>
       <guid isPermaLink="false">10.1109/IRI69576.2026.00104</guid>
@@ -27,7 +97,7 @@
 &lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;公开资料驱动的配电/输电资产盘点、OSM缺失对象补全、LiDAR样区验证、GIS网络数据库更新。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；未取得来源、长期直链和复用条件同时明确的论文图。&lt;/p&gt;</description>
     </item>
-    <item>
+<item>
       <title>[优先级 A2] 物理特征与对抗训练增强的电网拓扑辨识</title>
       <link>https://doi.org/10.1016/j.epsr.2025.112670</link>
       <guid isPermaLink="false">10.1016/j.epsr.2025.112670</guid>
@@ -41,7 +111,7 @@
 &lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;候选拓扑校验、开关状态辨识、量测异常下的拓扑鲁棒更新、信息物理攻击场景测试。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；未取得许可和稳定直链均明确的原图。&lt;/p&gt;</description>
     </item>
-    <item>
+<item>
       <title>[优先级 A2] 拓扑感知联邦学习：异构电网暂态稳定评估</title>
       <link>https://doi.org/10.1016/j.segan.2026.102505</link>
       <guid isPermaLink="false">10.1016/j.segan.2026.102505</guid>
@@ -55,7 +125,7 @@
 &lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;分区暂态安全评估、新能源基地与主网协同建模、数据不出域的跨机构模型训练、稀缺失稳样本增强。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；出版商摘要页未提供可长期复用的独立图片地址。&lt;/p&gt;</description>
     </item>
-    <item>
+<item>
       <title>[优先级 A1] 拓扑变化弱网下构网型变流器的阻抗感知稳定保护</title>
       <link>https://doi.org/10.1016/j.egyr.2026.109214</link>
       <guid isPermaLink="false">10.1016/j.egyr.2026.109214</guid>
