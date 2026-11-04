@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>电力网络论文晨报</title><link>https://infinitems599.github.io/Animation_flow/</link><description>精选电力网络、复杂网络、输电网络重建及电网建模相关论文，附中文摘要与推荐理由。</description><language>zh-CN</language><atom:link href="https://infinitems599.github.io/Animation_flow/power-network.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl>            <item>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>电力网络论文晨报</title><link>https://infinitems599.github.io/Animation_flow/</link><description>精选电力网络、复杂网络、输电网络重建及电网建模相关论文，附中文摘要与推荐理由。</description><language>zh-CN</language><atom:link href="https://infinitems599.github.io/Animation_flow/power-network.xml" rel="self" type="application/rss+xml"/><ttl>60</ttl>                <item>
+      <title>[优先级 A1] 用扩散模型生成输电塔灾损卫星样本：解决UAV—卫星尺度错配</title>
+      <link>https://doi.org/10.3390/s26103241</link>
+      <guid isPermaLink="false">10.3390/s26103241</guid>
+      <pubDate>Wed, 04 Nov 2026 00:41:55 GMT</pubDate>
+      <description>&lt;h2&gt;Scale-Constrained Synthetic Construction for Small-Sample Satellite Power Tower Damage Assessment Under Cross-Scale Mismatch&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Yulong Liu, Qi Wen, Jianghong Zhao, Runyu Ma, Atta-ur Rahman, Xiaolin Tian&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;Sensors 26(10), 3241；2026-05-20，正式发表、开放获取&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.3390/s26103241&quot;&gt;10.3390/s26103241&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;论文针对灾后损坏输电塔样本稀缺，以及近距离UAV损伤图像与卫星目标尺度、频谱和纹理不一致的问题，先用卫星域目标尺度先验约束实例嵌入，再进行频域适配，最后通过潜空间扩散修复在真实卫星影像原塔位生成灾损区域，并用双时相变化检测验证合成样本的有效性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;与你设想的“3D/合成环境生成输电塔训练影像”高度相关。它说明合成数据不能只追求视觉逼真，还必须约束目标在卫星影像中的像素尺度、背景频谱和纹理域差异，否则模型会学习到错误的尺度先验。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;尺度感知实例嵌入；频域适配；潜扩散修复；真实塔位重绘；灾前/灾后双时相样本；下游变化检测验证。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;论文开放获取；本次未确认作者公开原始灾损图像、生成代码、训练权重或完整合成数据集。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;山区输电塔灾损识别、极端天气应急样本扩充、仿真/真实域适配，以及三维塔模型渲染数据的质量约束设计。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；开放正文含合成流程和灾前/灾后效果图，但未取得可稳定外链且复用条件单独明确的图片地址。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[优先级 A1] 卫星影像中的小型输电塔检测：语义边界与结构感知定位</title>
+      <link>https://doi.org/10.3390/rs18101452</link>
+      <guid isPermaLink="false">10.3390/rs18101452</guid>
+      <pubDate>Wed, 04 Nov 2026 00:41:55 GMT</pubDate>
+      <description>&lt;h2&gt;SBG-DDN: Semantic Boundary-Guided Dynamic Detection Network for Small Transmission Tower Detection in Remote Sensing Images&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Kun Cheng, Yunhe Cui, Yifan Liu, Pengyu Yin, Yu Jiang, Ningzhe Liu, Zhe Yin, Jiaping Wu, Tonggang Zhao, Junxiang Tan&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;Remote Sensing 18(10), 1452；2026-05-07，正式发表、开放获取&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.3390/rs18101452&quot;&gt;10.3390/rs18101452&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;针对遥感影像中输电塔尺寸小、响应弱、背景复杂和钢架边界易被淹没的问题，SBG-DDN并联冻结的DINOv3全局语义特征与CSPDarknet局部边界特征，通过语义—边界融合模块、动态检测头和结构感知IoU损失提高细长铁塔的定位能力。在公开SRSPTD上达到74.3% mAP@0.5和35.1% mAP@0.5:0.95。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;四川220 kV以上走廊的大范围建模首先需要稳定获得塔位。该文比一般目标检测更关注塔体边界与细长结构，并构建了跨国家、多地貌的PTTOD数据集，适合评估模型在山地、城市和不同影像源之间的泛化。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;DINOv3语义先验；CSPDarknet边界特征；SBFM融合；DSBOH动态检测头；ASTIoU结构损失；多尺度小目标检测。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;使用公开SRSPTD，并介绍新建PTTOD数据集；本次未确认PTTOD下载地址、完整代码或训练权重已公开。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;卫星塔位提取、跨区域输电塔普查、走廊候选线生成、后续塔型和电压等级识别的前置检测。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；开放论文提供网络结构及检测对比图，未取得适合RSS长期引用的独立图片直链。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[优先级 A1] 仅用公开电力市场数据反推输电拓扑与PTDF</title>
+      <link>https://doi.org/10.1109/ICPC2T68221.2026.11646413</link>
+      <guid isPermaLink="false">10.1109/ICPC2T68221.2026.11646413</guid>
+      <pubDate>Wed, 04 Nov 2026 00:41:55 GMT</pubDate>
+      <description>&lt;h2&gt;Reconstructing Power Grid Topology and Parameters Using Publicly Available Electricity Market Data&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;B. Seshasai, E. Koley, S. Ghosh&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;2026 5th International Conference on Power, Control and Computing Technologies (ICPC2T), pp. 1073–1077；正式会议论文&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.1109/ICPC2T68221.2026.11646413&quot;&gt;10.1109/ICPC2T68221.2026.11646413&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;论文仅利用公开节点边际电价和输电约束影子价格，对中心化后的LMP进行线性回归估计PTDF，再把历史上曾经拥塞的约束并集恢复为候选拓扑。在IEEE 5、30和57节点系统的500小时数据上，报告拓扑恢复率100%，PTDF余弦相似度约90.66%–96.04%，并展示所恢复模型可被用于构造隐蔽错误数据攻击。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;该文证明“公开运行经济信号”可能泄露电气拓扑和参数。对四川建模的正向用途是作为OSM/遥感候选拓扑的独立约束；但中国市场公开粒度不同，而且安全边界必须优先，不能将方法用于识别非公开真实设施。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;LMP去均值；影子价格；PTDF线性回归；历史拥塞约束并集；拓扑恢复；坏数据检测绕过评估。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;使用IEEE 5/30/57节点算例和模拟市场序列；未确认作者公开500小时输入序列或实现代码。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;公开数据泄露风险评估、候选拓扑交叉校验、市场—物理双层信息物理安全研究。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；未取得来源和复用条件明确的稳定图片直链。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[优先级 A2] 开放的电—气耦合输电基准：可复现多能网络拓扑与时序曲线</title>
+      <link>https://doi.org/10.1109/OSMSES69376.2026.11457203</link>
+      <guid isPermaLink="false">10.1109/OSMSES69376.2026.11457203</guid>
+      <pubDate>Wed, 04 Nov 2026 00:41:55 GMT</pubDate>
+      <description>&lt;h2&gt;Benchmark Test Grids for Coupled Power and Gas Systems Studies&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Yifei Lu, Junjie Zhang, Marcel Zimmer, Thiemo Pesch, Andrea Benigni&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;2026 Open Source Modelling and Simulation of Energy Systems (OSMSES), pp. 1–7；2026-03-23至25会议，正式会议论文&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.1109/OSMSES69376.2026.11457203&quot;&gt;10.1109/OSMSES69376.2026.11457203&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;论文给出从开放数据构造电力—天然气耦合基准的工作流，以德国输电系统为原型保证两类网络在地理范围、规模和运行假设上协调，并提供不同规模的耦合案例以及电负荷、气负荷、风电和光伏的代表性日曲线，支持稳态和时变分析。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;四川研究最终可能从纯电网扩展到天然气、氢能或综合能源。该基准的关键价值在于：跨网络耦合不能随意拼接两个无关算例，而要保持空间覆盖、节点规模、时间序列和能量转换接口的一致性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;开放输电/输气数据处理；地理一致性匹配；多尺度基准生成；代表性日曲线；PyPSA与GasNetSim实现。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;论文配套说明提供开放基准和创建流程，并采用PyPSA、GasNetSim；本次检索未取得可直接核实的永久仓库URL，使用前应从作者项目页核对最新版。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;电—气—氢耦合规划、四川综合能源外送场景、多层网络传播和韧性分析、算法基准测试。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；未确认论文图件具有稳定、可复用的独立链接。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[优先级 A2] 230 kV接口光储电网的物理图注意力稳定评估</title>
+      <link>https://doi.org/10.1016/j.meaene.2026.100117</link>
+      <guid isPermaLink="false">10.1016/j.meaene.2026.100117</guid>
+      <pubDate>Wed, 04 Nov 2026 00:41:55 GMT</pubDate>
+      <description>&lt;h2&gt;Physics-informed graph-attention feature fusion network for renewable-integrated smart grid stability assessment&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Abu Shufian, Md. Asif Khan, Rajin Al Fatemi, F. M. Mahir Daiyan, Shaikh Anowarul Fattah&lt;br&gt;&lt;strong&gt;发表：&lt;/strong&gt;Measurement: Energy, 100117；2026在线发表，编入2026-12卷期，正式研究论文、开放获取&lt;br&gt;&lt;strong&gt;DOI：&lt;/strong&gt;&lt;a href=&quot;https://doi.org/10.1016/j.meaene.2026.100117&quot;&gt;10.1016/j.meaene.2026.100117&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文摘要：&lt;/strong&gt;研究分为两个独立部分：一是建立100 MWp光伏、60 MWh储能、虚拟同步型构网变流器和230 kV电网接口的MATLAB/Simscape模型，评估出力变化、负荷切换、失网、三相故障和无功支撑；二是把UCI四节点稳定数据构造成物理一致图，用PI-GAFFN同时回归稳定指标并分类稳定状态。模型报告99.50%分类准确率，在10%高斯噪声与错误数据注入下仍约93%。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推荐理由：&lt;/strong&gt;230 kV接口与四川新能源汇集站层级接近，论文展示了“详细电磁/动态模型”和“图学习稳定评估”如何并列使用。但两条实验轨道的数据并不相同，因此UCI上的高准确率不能直接证明其对230 kV模型有效。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主要方法：&lt;/strong&gt;PV–BESS–GFM动态仿真；物理节点编码；图注意力；多尺度特征融合；稳定指标回归与分类联合损失；噪声和FDI鲁棒性测试。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;公开数据/代码：&lt;/strong&gt;机器学习部分使用公开UCI Electrical Grid Stability数据；本次未确认230 kV Simscape模型、训练代码和权重公开。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;新能源汇集站稳定监测、图结构暂稳代理、故障与错误数据注入鲁棒性评估、230 kV并网场景设计。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；出版商页面展示框架概念图，但未取得稳定且许可明确的图片直链。&lt;/p&gt;</description>
+    </item>
+<item>
       <title>[优先级 A1] 公开影像细化≥230 kV变电站：从OSM点位到元件级拓扑</title>
       <link>https://doi.org/10.1029/2026SW005166</link>
       <guid isPermaLink="false">10.1029/2026SW005166</guid>
@@ -13,7 +83,7 @@
 &lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;220/500 kV变电站内部结构重建、变压器数量与电压层核验、空间天气/GIC分析及公开数据可信度评估。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；论文原文含标注平台、站内元件和案例网络图，未取得同时满足稳定直链与复用条件的单独图片地址。&lt;/p&gt;</description>
     </item>
-    <item>
+<item>
       <title>[优先级 A1] 高比例变流器电网：开源并行稳定数据生成框架</title>
       <link>https://doi.org/10.1016/j.ijepes.2026.111931</link>
       <guid isPermaLink="false">10.1016/j.ijepes.2026.111931</guid>
@@ -27,7 +97,7 @@
 &lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;IBR稳定数据集生成、GFM/GFL参数扫描、稳定边界学习、暂稳/小信号代理模型训练前的数据工程。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；未确认出版商图件存在可长期复用的稳定直链。&lt;/p&gt;</description>
     </item>
-    <item>
+<item>
       <title>[优先级 A1] 跨区输电扩建的边际价值：新能源、储能与新线路如何替代</title>
       <link>https://doi.org/10.1016/j.apenergy.2026.128145</link>
       <guid isPermaLink="false">10.1016/j.apenergy.2026.128145</guid>
@@ -41,7 +111,7 @@
 &lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;川电外送通道规划、220/500 kV关键断面扩建、储能替代输电分析、长期新能源消纳方案比较。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；论文图表未取得许可与稳定直链均明确的外部地址。&lt;/p&gt;</description>
     </item>
-    <item>
+<item>
       <title>[优先级 A2] 现代输电扩展规划综述：从确定性模型到随机—鲁棒混合框架</title>
       <link>https://doi.org/10.1016/j.egyr.2026.109313</link>
       <guid isPermaLink="false">10.1016/j.egyr.2026.109313</guid>
@@ -55,7 +125,7 @@
 &lt;p&gt;&lt;strong&gt;研究应用：&lt;/strong&gt;研究路线设计、TEP模型选型、候选场景与指标体系建立、文献追踪。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;图片：&lt;/strong&gt;本条未嵌入图片；开放正文包含分类与演进图，但未取得适合RSS稳定引用的独立图片地址。&lt;/p&gt;</description>
     </item>
-    <item>
+<item>
       <title>[优先级 A2] 无实时拓扑通信的重构检测：残差触发阻抗与电压灵敏度更新</title>
       <link>https://doi.org/10.1038/s41598-026-76477-x</link>
       <guid isPermaLink="false">10.1038/s41598-026-76477-x</guid>
